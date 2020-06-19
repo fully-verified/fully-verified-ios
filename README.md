@@ -2,7 +2,7 @@
 
 ## Podfile
 
-```pod 'FullyVerifiedSDK', :git => 'https://github.com/fully-verified/fully-verified-ios.git', :tag => '1.37.2'```
+```pod 'FullyVerifiedSDK', :git => 'https://github.com/fully-verified/fully-verified-ios.git', :tag => '1.37.3'```
 
 ## Install Pod
 
