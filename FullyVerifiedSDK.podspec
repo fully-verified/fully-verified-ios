@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FullyVerifiedSDK"
-  spec.version      = "1.37.2"
-  spec.summary      = "Fully-Verified iOS SDK 1.37.2"
+  spec.version      = "1.37.4"
+  spec.summary      = "Fully-Verified iOS SDK 1.37.4"
 
   spec.description  = <<-DESC
-  Fully-Verified iOS SDK Version 1.37.2
+  Fully-Verified iOS SDK Version 1.37.4
                    DESC
 
   spec.homepage     = "https://github.com/fully-verified/fully-verified-ios.git"
