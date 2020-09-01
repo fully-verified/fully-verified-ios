@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FullyVerifiedSDK"
-  spec.version      = "1.37.4"
-  spec.summary      = "Fully-Verified iOS SDK 1.37.4"
+  spec.version      = "1.39.1"
+  spec.summary      = "Fully-Verified iOS SDK 1.39.1"
 
   spec.description  = <<-DESC
-  Fully-Verified iOS SDK Version 1.37.4
+  Fully-Verified iOS SDK Version 1.39.1
                    DESC
 
   spec.homepage     = "https://github.com/fully-verified/fully-verified-ios.git"
@@ -30,8 +30,6 @@ Pod::Spec.new do |spec|
 
   spec.dependency "JSONModel", "~> 1.7"
   spec.dependency "TwilioVideo", "~> 3.0"
-  spec.dependency "FCAlertView", "~> 1.4"
-  spec.dependency "HCSStarRatingView", "~> 1.5"
   spec.dependency "SAMKeychain", "~> 1.5.3"
   spec.dependency "SDWebImage", "~> 5.0"
 
