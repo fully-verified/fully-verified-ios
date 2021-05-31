@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FullyVerifiedSDK"
-  spec.version      = "1.44.1"
-  spec.summary      = "Fully-Verified iOS SDK 1.44.1"
+  spec.version      = "1.49.1"
+  spec.summary      = "Fully-Verified iOS SDK 1.49.1"
 
   spec.description  = <<-DESC
-  Fully-Verified iOS SDK Version 1.44.1
+  Fully-Verified iOS SDK Version 1.49.1
                    DESC
 
   spec.homepage     = "https://github.com/fully-verified/fully-verified-ios.git"
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author       = { "Fully-Verified" => "support@fully-verified.com" }
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "11.0"
 
   spec.source       = { :git => "https://github.com/fully-verified/fully-verified-ios.git", :tag => "#{spec.version}" }
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.dependency "JSONModel", "~> 1.8"
-  spec.dependency "TwilioVideo", "~> 4.0.1"
+  spec.dependency "TwilioVideo", "~> 4.4.0"
   spec.dependency "SAMKeychain", "~> 1.5.3"
   spec.dependency "SDWebImage", "~> 5.10"
 
